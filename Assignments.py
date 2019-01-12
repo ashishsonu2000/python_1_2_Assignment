@@ -75,6 +75,8 @@ for word in comma_separated:
         comma_separated_list.remove(word)
 print(comma_separated_list)
 
+#==============Second option using string function==========
+comma_separated.split(',')
 
 # In[3]:
 
