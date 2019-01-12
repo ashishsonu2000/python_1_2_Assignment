@@ -3,7 +3,7 @@
 
 # In[ ]:
 
-
+#===============================================================
 l = list(range(2000,3200+1))
 #print(l)
 for number in l :
@@ -16,7 +16,7 @@ for number in l :
 
 # In[ ]:
 
-
+#===============================================================
 # Write  a program which will find all such numbers which are divisible by 7
 # but not multiple of 5 between 2000 to 3200 both included
 l = list(range(2000,3200+1))
@@ -26,7 +26,7 @@ print(new_list)
 
 # In[ ]:
 
-
+#===============================================================
 #Reverse first name and last name provided by user space between first name and lastname
 first_Name = input("Please provide first name ")
 lats_Name = input("Please provide last name ")
@@ -46,9 +46,9 @@ print(username)
 
 
 # In[ ]:
+#===============================================================
 
-
-# Python Program to find Volume and Surface Area of Sphere using Functions
+# Python Program to find Volume of Sphere using Functions
  
 import math
  
@@ -63,7 +63,7 @@ Area_of_Triangle(12)
 
 # In[ ]:
 
-
+#===============================================================
 # Accepts comma seperated sequence and generate list
 comma_separated = input("Please provide comma separated list - ")
 comma_separated_list = []
@@ -78,7 +78,7 @@ print(comma_separated_list)
 
 # In[3]:
 
-
+#===============================================================
 #Nested for loop
 for i in range(0,5):
     j=i+1
@@ -94,6 +94,13 @@ for i in s:
 
 
 # In[ ]:
+
+#===============================================================
+
+#Reverse word after accepting from user
+word = input("Please provide first name ")
+word=word[::-1]
+print(word)
 
 
 #Reverse word after accepting from user
